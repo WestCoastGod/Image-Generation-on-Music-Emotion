@@ -32,30 +32,27 @@ ENV/
 *.ckpt
 *.h5
 *.joblib
-GAN/Weights/
-GAN/Backup/
+Weights/
 
-# Generated Images
-GAN/Samples_*/
-GAN/Data/All_photos/
-GAN/Data/Landscape/
+# Generated Images and Samples
 *.png
 *.jpg
 *.jpeg
 !README_images/*.png
 !README_images/*.jpg
+Demo/GAN_Samples/
+Demo/Diffusion_Samples/
 
-# Dataset
-GAN/Data/All_photos/
-GAN/Data/Landscape/
-Music/music_data/
+# Dataset (large image/audio files)
+Data/Image/All_photos/
+Data/Image/Landscape/
+Data/Image/FindingEmo/
+Data/Music/DEAM/audios/
+Data/Music/PMEmo/chorus/
 
 # CSV and TXT data files
 *.csv
 *.txt
-Music/music_train_dataset.csv
-Music/music_data/DEAM/audios/
-Music/music_data/PMEmo/chorus/
 
 # Web folder (entire frontend/backend)
 Web/
@@ -66,12 +63,6 @@ Web/
 *.temp
 .DS_Store
 Thumbs.db
-
-# Output files
-*.pdf
-*.docx
-milestone_report.md
-PROJECT_HISTORY.md
 
 # Large binary files
 *.wav
