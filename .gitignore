@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model Weights (large files)
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.joblib
+GAN/Weights/
+GAN/Backup/
+
+# Generated Images
+GAN/Samples_*/
+GAN/Data/All_photos/
+GAN/Data/Landscape/
+*.png
+*.jpg
+*.jpeg
+!README_images/*.png
+!README_images/*.jpg
+
+# Dataset
+GAN/Data/All_photos/
+GAN/Data/Landscape/
+Music/music_data/
+
+# CSV and TXT data files
+*.csv
+*.txt
+Music/music_train_dataset.csv
+Music/music_data/DEAM/audios/
+Music/music_data/PMEmo/chorus/
+
+# Web folder (entire frontend/backend)
+Web/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Output files
+*.pdf
+*.docx
+milestone_report.md
+PROJECT_HISTORY.md
+
+# Large binary files
+*.wav
+*.mp3
+*.mp4
+*.avi
