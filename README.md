@@ -2,9 +2,9 @@
 
 A two-stage deep learning system that analyzes emotional content in music and generates corresponding images using diffusion models.
 
-![progress](Src\progress.png)
+![progress](Src/progress.png)
 
-![diffusion](Src\demo.png)
+![diffusion](Src/demo.png)
 ## Quick Start
 
 ```bash
